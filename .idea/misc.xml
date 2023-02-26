@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/drawable/custom_button.xml" value="0.1145" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/drawable/custom_button_home1.xml" value="0.1145" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/drawable/custom_button_home2.xml" value="0.1145" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/drawable/custom_button_home3.xml" value="0.1145" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/drawable/custom_button_quit.xml" value="0.1145" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/drawable/custom_guide_dialog.xml" value="0.2405" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/font/archivo_black.xml" value="0.3927083333333333" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_game_end.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_game_level1.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_game_level2.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_game_level3.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_game_welcome.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_alien.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_bone.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_collar.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_coral.xml" value="0.3569230769230769" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_digger.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_doctor.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_football.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_frog.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_galaxy.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_holland.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_love.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_mice.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_party.xml" value="0.23243243243243245" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_police.xml" value="0.25" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_toy.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_get_winter.xml" value="0.23513513513513515" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_home1.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_home2.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_home3.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/activity_main_l2.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/custom_layout.xml" value="0.33425925925925926" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/guide_dialog.xml" value="0.3569230769230769" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/guidel2_dialog.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/msg_dialog.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/result_dialog.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/layout/reward_dialog.xml" value="0.3625" />
+        <entry key="..\:/Project/NewInApp/TennisConnect/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1085" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

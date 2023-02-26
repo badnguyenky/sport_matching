@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="@string/store_name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/a3" />
+
+        <TextView
+            android:id="@+id/txt_coin_get_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="0000"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/line_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@drawable/a4" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="15dp"
+                                    android:text="Price 1"
+                                    android:textColor="#0FFFFF"
+                                    android:textStyle="bold" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="10dp"
+                                    android:text="Give player 500 coins"
+                                    android:textColor="#0FFFFF"
+
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/football_price_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/custom_button"
+                            android:text="Price"
+                            android:textColor="#000000"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+
+                    app:cardBackgroundColor="@color/colorPrimaryDark"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/line_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@drawable/a5" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="15dp"
+                                    android:text="Price 2"
+                                    android:textColor="#0FFFFF"
+                                    android:textStyle="bold" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="10dp"
+                                    android:text="Give player 1000 coins"
+                                    android:textColor="#0FFFFF"
+
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/football_price_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/custom_button"
+                            android:text="Price"
+                            android:textColor="#000000"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_height="0dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/line_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@drawable/a6" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="15dp"
+                                    android:text="Price 3"
+                                    android:textColor="#0FFFFF"
+                                    android:textStyle="bold" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="10dp"
+                                    android:text="Give player 1500 coins"
+                                    android:textColor="#0FFFFF"
+
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/football_price_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/custom_button"
+                            android:text="Price"
+                            android:textColor="#000000"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_height="0dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+
+                    app:cardBackgroundColor="@color/colorHome1"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/line_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@drawable/a7" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="15dp"
+                                    android:text="Price 4"
+                                    android:textColor="#0FFFFF"
+                                    android:textStyle="bold" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="10dp"
+                                    android:text="Give player 2000 coins"
+                                    android:textColor="#0FFFFF"
+
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/football_price_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/custom_button"
+                            android:text="Price"
+                            android:textColor="#000000"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_height="0dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+
+                    app:cardBackgroundColor="@color/colorHome2"
+                    app:cardCornerRadius="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/line_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@drawable/a8" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="15dp"
+                                    android:text="Price 5"
+                                    android:textColor="#0FFFFF"
+                                    android:textStyle="bold" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textSize="10dp"
+                                    android:text="Give player 2500 coins"
+                                    android:textColor="#0FFFFF"
+
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/football_price_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/custom_button"
+                            android:text="Price"
+                            android:textColor="#000000"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_height="0dp">-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    app:cardBackgroundColor="@color/colorHome3"-->
+<!--                    app:cardCornerRadius="10dp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/line_6"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="10dp">-->
+
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:orientation="horizontal">-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:src="@drawable/a3" />-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:orientation="vertical">-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="15dp"-->
+<!--                                    android:text="Sub 1"-->
+<!--                                    android:textColor="#0FFFFF"-->
+<!--                                    android:textStyle="bold" />-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    android:text="Give player silver sub"-->
+<!--                                    android:textColor="#0FFFFF"-->
+
+<!--                                    android:textStyle="bold" />-->
+<!--                            </LinearLayout>-->
+
+
+<!--                        </LinearLayout>-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/football_price_6"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center"-->
+<!--                            android:background="@drawable/custom_button"-->
+<!--                            android:text="Price"-->
+<!--                            android:textColor="#0FFFFF"-->
+<!--                            android:textSize="25sp"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_height="0dp">-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    app:cardBackgroundColor="@color/colorRewardDialog"-->
+<!--                    app:cardCornerRadius="10dp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/line_7"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="10dp">-->
+
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:orientation="horizontal">-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:src="@drawable/a3" />-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:orientation="vertical">-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="15dp"-->
+<!--                                    android:text="Sub 2"-->
+<!--                                    android:textColor="#0FFFFF"-->
+<!--                                    android:textStyle="bold" />-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    android:text="Give player gold sub"-->
+<!--                                    android:textColor="#0FFFFF"-->
+
+<!--                                    android:textStyle="bold" />-->
+<!--                            </LinearLayout>-->
+
+
+<!--                        </LinearLayout>-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/football_price_7"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center"-->
+<!--                            android:background="@drawable/custom_button"-->
+<!--                            android:text="Price"-->
+<!--                            android:textColor="#0FFFFF"-->
+<!--                            android:textSize="25sp"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_height="0dp">-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    app:cardBackgroundColor="@color/colorGuideDialog"-->
+<!--                    app:cardCornerRadius="10dp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/line_8"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="10dp">-->
+
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:orientation="horizontal">-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:src="@drawable/a3" />-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:orientation="vertical">-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="15dp"-->
+<!--                                    android:text="Sub 4"-->
+<!--                                    android:textColor="#0FFFFF"-->
+<!--                                    android:textStyle="bold" />-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    android:text="Give player platinum sub"-->
+<!--                                    android:textColor="#0FFFFF"-->
+
+<!--                                    android:textStyle="bold" />-->
+<!--                            </LinearLayout>-->
+
+
+<!--                        </LinearLayout>-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/football_price_8"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center"-->
+<!--                            android:background="@drawable/custom_button"-->
+<!--                            android:text="Price"-->
+<!--                            android:textColor="#0FFFFF"-->
+<!--                            android:textSize="25sp"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_height="0dp">-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    app:cardBackgroundColor="@color/colorQuit"-->
+<!--                    app:cardCornerRadius="10dp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/line_9"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="10dp">-->
+
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:orientation="horizontal">-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:src="@drawable/a3" />-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:orientation="vertical">-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="15dp"-->
+<!--                                    android:text="Sub 4"-->
+<!--                                    android:textColor="#0FFFFF"-->
+<!--                                    android:textStyle="bold" />-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    android:text="Give player diamond sub"-->
+<!--                                    android:textColor="#0FFFFF"-->
+
+<!--                                    android:textStyle="bold" />-->
+<!--                            </LinearLayout>-->
+
+
+<!--                        </LinearLayout>-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/football_price_9"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center"-->
+<!--                            android:background="@drawable/custom_button"-->
+<!--                            android:text="Price"-->
+<!--                            android:textColor="#0FFFFF"-->
+<!--                            android:textSize="25sp"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_height="0dp">-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    app:cardBackgroundColor="@color/colorWelcome"-->
+<!--                    app:cardCornerRadius="10dp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/line_10"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="10dp">-->
+
+
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:orientation="horizontal">-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:src="@drawable/a3" />-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:orientation="vertical">-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="15dp"-->
+<!--                                    android:text="Sub 5"-->
+<!--                                    android:textColor="#0FFFFF"-->
+<!--                                    android:textStyle="bold" />-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="0dp"-->
+<!--                                    android:layout_weight="1"-->
+<!--                                    android:gravity="center"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    android:text="Give player master sub"-->
+<!--                                    android:textColor="#0FFFFF"-->
+
+<!--                                    android:textStyle="bold" />-->
+<!--                            </LinearLayout>-->
+
+
+<!--                        </LinearLayout>-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/football_price_10"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:gravity="center"-->
+<!--                            android:background="@drawable/custom_button"-->
+<!--                            android:text="Price"-->
+<!--                            android:textColor="#0FFFFF"-->
+<!--                            android:textSize="25sp"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--            </LinearLayout>-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

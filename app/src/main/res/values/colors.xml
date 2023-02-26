@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#09C953</color>
+    <color name="colorPrimaryDark">#5492FC</color>
+    <color name="colorAccent">#52CAF6</color>
+    <color name="colorWhite">#13E41D</color>
+    <color name="colorWelcome">#BCFCC4</color>
+    <color name="colorHome1">#61AB3D</color>
+    <color name="colorHome2">#DC5337</color>
+    <color name="colorHome3">#7257AE</color>
+    <color name="colorQuit">#14265A</color>
+    <color name="colorGuideDialog">#F464F4</color>
+    <color name="colorRewardDialog">#75578F</color>
+</resources>
